@@ -3,249 +3,329 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Box Buddy</title>
+    <title>Privacy Policy - Box Buddy by Ophelion</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
-            margin: 0 auto;
+            background-color: #f8f9fa;
             padding: 20px;
         }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
         h1 {
             color: #667eea;
-            border-bottom: 2px solid #667eea;
-            padding-bottom: 10px;
+            margin-bottom: 10px;
+            font-size: 2em;
         }
+        
         h2 {
-            color: #555;
+            color: #667eea;
             margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
         }
+        
         h3 {
-            color: #666;
+            color: #495057;
             margin-top: 20px;
+            margin-bottom: 10px;
         }
-        .last-updated {
-            font-style: italic;
-            color: #666;
-            margin-bottom: 30px;
+        
+        p {
+            margin-bottom: 15px;
         }
-        .contact {
-            background: #f5f5f5;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 30px;
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
         }
-        ul {
-            margin-left: 20px;
-        }
+        
         li {
             margin-bottom: 8px;
+        }
+        
+        .last-updated {
+            color: #6c757d;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        .intro {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        
+        .contact {
+            background-color: #e7f3ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        strong {
+            color: #495057;
         }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: 10/18/2025</p>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last Updated: October 21, 2025</p>
+        
+        <div class="intro">
+            <p><strong>Box Buddy</strong> is a mobile application developed by Ophelion Software that helps you organize your moving boxes using QR code labels. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.</p>
+            <p>By using Box Buddy, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use Box Buddy.</p>
+        </div>
 
-    <p>This Privacy Policy describes how Box Buddy ("we," "us," or "our") collects, uses, and shares your personal information when you use our mobile application.</p>
+        <h2>1. Information We Collect</h2>
 
-    <h2>1. Information We Collect</h2>
+        <h3>Account Information</h3>
+        <p>When you create an account with Box Buddy, we collect:</p>
+        <ul>
+            <li><strong>Email address:</strong> Used for account creation, authentication, and communication</li>
+            <li><strong>Password:</strong> Encrypted and stored securely through Firebase Authentication</li>
+            <li><strong>Display name (optional):</strong> If you choose to provide it</li>
+        </ul>
 
-    <h3>Information You Provide to Us</h3>
-    <p>When you use Box Buddy, we collect information that you provide directly to us, including:</p>
-    <ul>
-        <li><strong>Account Information:</strong> Email address and password when you create an account</li>
-        <li><strong>Box Inventory Data:</strong> Box names, descriptions, contents lists, and any other information you choose to add to your boxes</li>
-        <li><strong>QR Code Data:</strong> Information associated with generated QR codes</li>
-        <li><strong>User-Generated Content:</strong> Any notes, photos, or other content you add to your boxes</li>
-    </ul>
+        <h3>Box Inventory Data</h3>
+        <p>The core functionality of Box Buddy involves creating and managing your moving box inventory. We store:</p>
+        <ul>
+            <li><strong>Box information:</strong> Box names, room assignments, contents descriptions</li>
+            <li><strong>QR code associations:</strong> Links between QR codes and your boxes</li>
+            <li><strong>Photos:</strong> Optional images of box contents you choose to upload</li>
+            <li><strong>Notes and tags:</strong> Any additional information you add to boxes</li>
+            <li><strong>Timestamps:</strong> When boxes are created, modified, or deleted</li>
+        </ul>
 
-    <h3>Information Collected Automatically</h3>
-    <p>When you use our app, we automatically collect certain information, including:</p>
-    <ul>
-        <li><strong>Device Information:</strong> Device type, operating system version, unique device identifiers</li>
-        <li><strong>Usage Information:</strong> How you interact with the app, features you use, time spent in the app</li>
-        <li><strong>Error and Performance Data:</strong> Crash reports and performance diagnostics to help us improve the app</li>
-        <li><strong>Authentication Data:</strong> Information needed to verify your identity and secure your account</li>
-    </ul>
+        <h3>Device and Usage Information</h3>
+        <p>We automatically collect certain information about your device and how you use Box Buddy:</p>
+        <ul>
+            <li><strong>Device information:</strong> Device type, operating system, unique device identifiers</li>
+            <li><strong>App usage data:</strong> Features used, frequency of use, session duration</li>
+            <li><strong>Error logs:</strong> Crash reports and diagnostic information to improve app stability</li>
+        </ul>
 
-    <h2>2. How We Use Your Information</h2>
+        <h3>Payment Information</h3>
+        <p>If you purchase Box Buddy Pro:</p>
+        <ul>
+            <li>Payment processing is handled by Apple (App Store) or Google (Play Store)</li>
+            <li>We do not directly collect or store your credit card information</li>
+            <li>We receive confirmation of your purchase status to enable Pro features</li>
+        </ul>
 
-    <p>We use the information we collect to:</p>
-    <ul>
-        <li>Provide, maintain, and improve the Box Buddy app</li>
-        <li>Create and manage your account</li>
-        <li>Store and sync your box inventory across your devices</li>
-        <li>Enable offline functionality so you can access your data without an internet connection</li>
-        <li>Process your in-app purchases and manage your subscription</li>
-        <li>Send you technical notices, updates, and security alerts</li>
-        <li>Respond to your comments, questions, and support requests</li>
-        <li>Monitor and analyze trends, usage, and activities to improve the app</li>
-        <li>Detect, prevent, and address technical issues, fraud, or security problems</li>
-    </ul>
+        <h2>2. How We Use Your Information</h2>
 
-    <h2>3. Data Storage and Third-Party Services</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+            <li><strong>Provide and maintain the service:</strong> Store your box inventory, sync across devices, enable QR code scanning</li>
+            <li><strong>Improve the app:</strong> Understand how users interact with features, identify bugs, optimize performance</li>
+            <li><strong>Customer support:</strong> Respond to your questions, requests, and feedback</li>
+            <li><strong>Send notifications:</strong> Important account updates, feature announcements (you can opt out)</li>
+            <li><strong>Process payments:</strong> Manage subscriptions and Pro feature access</li>
+            <li><strong>Comply with legal obligations:</strong> Respond to legal requests or prevent fraud</li>
+        </ul>
 
-    <h3>Google Cloud Firestore</h3>
-    <p>We use Google Cloud Firestore to store your box inventory data. This means your data is stored on Google's secure servers.</p>
-    <ul>
-        <li><strong>Service Provider:</strong> Google Cloud Platform (Firestore)</li>
-        <li><strong>Privacy Policy:</strong> <a href="https://cloud.google.com/terms/cloud-privacy-notice" target="_blank">Google Cloud Privacy Notice</a></li>
-        <li><strong>Data Location:</strong> Your data is stored in us-central1 data centers</li>
-        <li><strong>Security:</strong> Data is encrypted in transit (HTTPS/TLS) and at rest</li>
-    </ul>
+        <h2>3. Data Storage and Third-Party Services</h2>
 
-    <h3>Firebase Authentication</h3>
-    <p>We use Firebase Authentication to manage user accounts securely.</p>
-    <ul>
-        <li><strong>Information Stored:</strong> Email address, encrypted password, user ID</li>
-        <li><strong>Purpose:</strong> Secure login, account management, data access control</li>
-    </ul>
+        <h3>Google Cloud Platform / Firebase</h3>
+        <p>Box Buddy uses Google Cloud Platform services to store and manage your data:</p>
+        <ul>
+            <li><strong>Firebase Authentication:</strong> Securely manages your account credentials</li>
+            <li><strong>Cloud Firestore:</strong> Stores your box inventory data</li>
+            <li><strong>Firebase Storage:</strong> Stores photos you upload</li>
+            <li><strong>Data location:</strong> Your data is stored on Google Cloud servers in the United States</li>
+            <li><strong>Security:</strong> Google encrypts data at rest and in transit using industry-standard protocols</li>
+        </ul>
 
-    <h3>Payment Processing</h3>
-    <p>In-app purchases are processed by Apple App Store or Google Play Store. We do not have access to or store your payment card information. Your payment is subject to Apple's or Google's privacy policies:</p>
-    <ul>
-        <li><strong>Apple:</strong> <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a></li>
-        <li><strong>Google:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
-    </ul>
+        <p>By using Box Buddy, you acknowledge that your data will be processed and stored by Google Cloud Platform. For more information about how Google handles data, please review:</p>
+        <ul>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+            <li><a href="https://cloud.google.com/security/privacy" target="_blank">Google Cloud Privacy Notice</a></li>
+        </ul>
 
-    <h2>4. Offline Mode and Data Synchronization</h2>
+        <h2>4. Offline Mode and Data Synchronization</h2>
 
-    <p>Box Buddy includes offline functionality that allows you to access and modify your box inventory without an internet connection.</p>
-    <ul>
-        <li>When offline, your data is stored locally on your device</li>
-        <li>Changes made offline are queued and automatically synchronized to our servers when you reconnect to the internet</li>
-        <li>This ensures you can access your moving inventory even during your move when WiFi may not be available</li>
-    </ul>
+        <p>Box Buddy includes offline functionality that allows you to access and modify your box inventory without an internet connection.</p>
+        <ul>
+            <li>When offline, your data is stored locally on your device</li>
+            <li>Changes made offline are queued and automatically synchronized to our servers when you reconnect to the internet</li>
+            <li>This ensures you can access your moving inventory even during your move when WiFi may not be available</li>
+        </ul>
 
-    <h2>5. Family Accounts</h2>
+        <h2>5. Family Accounts</h2>
 
-    <p><em>[Include this section if/when you add family accounts]</em></p>
+        <p><em>[Include this section if/when you add family accounts]</em></p>
 
-    <p>Box Buddy allows you to share your box inventory with family members through family accounts.</p>
+        <p>Box Buddy allows you to share your box inventory with family members through family accounts.</p>
 
-    <h3>How Family Accounts Work</h3>
-    <ul>
-        <li>One person (the admin) creates a family account and can invite up to 4 additional family members</li>
-        <li>All family members can view and edit shared boxes</li>
-        <li>Each person has their own login credentials</li>
-    </ul>
+        <h3>How Family Accounts Work</h3>
+        <ul>
+            <li>One person (the admin) creates a family account and can invite up to 4 additional family members</li>
+            <li>All family members can view and edit shared boxes</li>
+            <li>Each person has their own login credentials</li>
+        </ul>
 
-    <h3>Data Sharing Within Families</h3>
-    <p>When you join a family account, the following information is shared with all family members:</p>
-    <ul>
-        <li><strong>Shared:</strong> Box inventory (names, contents, photos), QR codes, activity history</li>
-        <li><strong>NOT Shared:</strong> Login credentials, personal account settings, payment information</li>
-    </ul>
+        <h3>Data Sharing Within Families</h3>
+        <p>When you join a family account, the following information is shared with all family members:</p>
+        <ul>
+            <li><strong>Shared:</strong> Box inventory (names, contents, photos), QR codes, activity history</li>
+            <li><strong>NOT Shared:</strong> Login credentials, personal account settings, payment information</li>
+        </ul>
 
-    <h3>Your Responsibilities</h3>
-    <ul>
-        <li>Only invite people you trust to your family account</li>
-        <li>Understand that invited members can view and edit all boxes</li>
-        <li>You are responsible for your family members' actions</li>
-        <li>Ensure family members are at least 13 years old</li>
-    </ul>
+        <h3>Your Responsibilities</h3>
+        <ul>
+            <li>Only invite people you trust to your family account</li>
+            <li>Understand that invited members can view and edit all boxes</li>
+            <li>You are responsible for your family members' actions</li>
+            <li>Ensure family members are at least 13 years old</li>
+        </ul>
 
-    <h2>6. Data Retention</h2>
+        <h2>6. Data Retention</h2>
 
-    <p>We retain your information for as long as your account is active or as needed to provide you services. You can request deletion of your account and data at any time through the app settings.</p>
-    <ul>
-        <li><strong>Active Accounts:</strong> We retain your data indefinitely while your account is active</li>
-        <li><strong>Deleted Accounts:</strong> When you delete your account, we permanently delete all your data within 30 days</li>
-        <li><strong>Backups:</strong> Data may persist in backups for up to 90 days after deletion</li>
-    </ul>
+        <p>We retain your information for as long as your account is active or as needed to provide you services. You can request deletion of your account and data at any time through the app settings.</p>
+        <ul>
+            <li><strong>Active Accounts:</strong> We retain your data indefinitely while your account is active</li>
+            <li><strong>Deleted Accounts:</strong> When you delete your account, we permanently delete all your data within 30 days</li>
+            <li><strong>Backups:</strong> Data may persist in backups for up to 90 days after deletion</li>
+        </ul>
 
-    <h2>7. Your Rights and Choices</h2>
+        <h2>7. Your Rights and Choices</h2>
 
-    <h3>Access and Update Your Information</h3>
-    <p>You can access and update your box inventory and account information directly within the app at any time.</p>
+        <h3>Access and Update Your Information</h3>
+        <p>You can access and update your box inventory and account information directly within the app at any time.</p>
 
-    <h3>Export Your Data</h3>
-    <p>You have the right to export all your data. You can export your box inventory to CSV format from the app settings.</p>
+        <h3>Export Your Data</h3>
+        <p>You have the right to export all your data. You can export your box inventory to CSV format from the app settings.</p>
 
-    <h3>Delete Your Data</h3>
-    <p>You can request deletion of your account and all associated data through the app settings. This action is permanent and cannot be undone.</p>
+        <h3>Delete Your Data</h3>
+        <p>You can request deletion of your account and all associated data through the app settings. This action is permanent and cannot be undone.</p>
 
-    <h3>Opt-Out of Communications</h3>
-    <p>You can opt out of promotional emails by following the unsubscribe link in those emails. You cannot opt out of service-related emails (e.g., account verification, security alerts).</p>
+        <h3>Marketing Communications</h3>
+        <p>You can opt out of promotional emails by clicking the "unsubscribe" link at the bottom of any marketing email or by adjusting your notification settings in the app.</p>
 
-    <h3>Data Portability</h3>
-    <p>You have the right to receive a copy of your data in a structured, commonly used format. Use the export feature in the app.</p>
+        <h2>8. Children's Privacy</h2>
 
-    <h2>8. Children's Privacy</h2>
+        <p>Box Buddy is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are under 13, do not use this app or provide any information. If we learn we have collected information from a child under 13, we will delete that information immediately.</p>
 
-    <p>Box Buddy is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are under 13, do not use this app or provide any information. If we learn we have collected information from a child under 13, we will delete that information immediately.</p>
+        <p>If you believe we might have information from or about a child under 13, please contact us at support@ophelion.app.</p>
 
-    <p>If you believe we might have information from or about a child under 13, please contact us at support@ophelion.app.</p>
+        <h2>9. International Users and Data Transfers</h2>
 
-    <h2>9. International Users and Data Transfers</h2>
+        <p>Box Buddy is operated from the United States. If you are located outside the United States, please be aware that information we collect will be transferred to and processed in the United States or other countries where our service providers operate.</p>
 
-    <p>Box Buddy is operated from the United States. If you are located outside the United States, please be aware that information we collect will be transferred to and processed in the United States or other countries where our service providers operate.</p>
+        <p>By using Box Buddy, you consent to the transfer of your information to countries outside of your country of residence, which may have different data protection rules than your country.</p>
 
-    <p>By using Box Buddy, you consent to the transfer of your information to countries outside of your country of residence, which may have different data protection rules than your country.</p>
+        <h3>European Users (GDPR Compliance)</h3>
+        <p>If you are in the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR):</p>
+        <ul>
+            <li><strong>Legal Basis:</strong> We process your data based on your consent and to fulfill our contract with you</li>
+            <li><strong>Data Controller:</strong> Ophelion Software is the data controller for your personal information</li>
+            <li><strong>Your Rights:</strong> Right to access, rectification, erasure, restriction, portability, and objection</li>
+            <li><strong>Withdraw Consent:</strong> You can withdraw consent at any time by deleting your account</li>
+            <li><strong>Complaint:</strong> You have the right to lodge a complaint with your local data protection authority</li>
+        </ul>
 
-    <h3>European Users (GDPR Compliance)</h3>
-    <p>If you are in the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR):</p>
-    <ul>
-        <li><strong>Legal Basis:</strong> We process your data based on your consent and to fulfill our contract with you</li>
-        <li><strong>Data Controller:</strong> Ophelion Software is the data controller for your personal information</li>
-        <li><strong>Your Rights:</strong> Right to access, rectification, erasure, restriction, portability, and objection</li>
-        <li><strong>Withdraw Consent:</strong> You can withdraw consent at any time by deleting your account</li>
-        <li><strong>Complaint:</strong> You have the right to lodge a complaint with your local data protection authority</li>
-    </ul>
+        <h3>California Users (CCPA Compliance)</h3>
+        <p>If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA):</p>
+        <ul>
+            <li><strong>Right to Know:</strong> What personal information we collect, use, and share</li>
+            <li><strong>Right to Delete:</strong> Request deletion of your personal information</li>
+            <li><strong>Right to Opt-Out:</strong> We do not sell your personal information</li>
+            <li><strong>Non-Discrimination:</strong> We will not discriminate against you for exercising your rights</li>
+        </ul>
 
-    <h3>California Users (CCPA Compliance)</h3>
-    <p>If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA):</p>
-    <ul>
-        <li><strong>Right to Know:</strong> What personal information we collect, use, and share</li>
-        <li><strong>Right to Delete:</strong> Request deletion of your personal information</li>
-        <li><strong>Right to Opt-Out:</strong> We do not sell your personal information</li>
-        <li><strong>Non-Discrimination:</strong> We will not discriminate against you for exercising your rights</li>
-    </ul>
+        <h2>10. Data Security</h2>
 
-    <h2>10. Data Security</h2>
+        <p>We take reasonable measures to protect your information from unauthorized access, use, or disclosure:</p>
+        <ul>
+            <li>Data encrypted in transit using HTTPS/TLS</li>
+            <li>Data encrypted at rest on Google Cloud servers</li>
+            <li>Firebase Authentication security rules</li>
+            <li>Firestore security rules limiting data access</li>
+            <li>Regular security updates and monitoring</li>
+        </ul>
 
-    <p>We take reasonable measures to protect your information from unauthorized access, use, or disclosure:</p>
-    <ul>
-        <li>Data encrypted in transit using HTTPS/TLS</li>
-        <li>Data encrypted at rest on Google Cloud servers</li>
-        <li>Firebase Authentication security rules</li>
-        <li>Firestore security rules limiting data access</li>
-        <li>Regular security updates and monitoring</li>
-    </ul>
+        <p>However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your information, we cannot guarantee absolute security.</p>
 
-    <p>However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your information, we cannot guarantee absolute security.</p>
+        <h2>11. Third-Party Services and Analytics</h2>
 
-    <h2>11. Changes to This Privacy Policy</h2>
+        <h3>Firebase Analytics</h3>
+        <p>We use Firebase Analytics to understand how users interact with Box Buddy and improve the app experience.</p>
+        <ul>
+            <li><strong>Information Collected:</strong> App usage patterns, feature interactions, screen views, performance metrics</li>
+            <li><strong>Purpose:</strong> Understand user behavior, measure feature adoption, optimize user experience</li>
+            <li><strong>Events Tracked:</strong> Box creation/updates, QR code usage, search activity, upgrade interactions</li>
+            <li><strong>Privacy:</strong> We do NOT collect the actual content of your boxes, search queries, or personal notes</li>
+            <li><strong>Opt-Out:</strong> You can disable analytics collection in app settings</li>
+            <li><strong>Privacy Policy:</strong> <a href="https://policies.google.com/technologies/partner-sites" target="_blank">Google Analytics Privacy Policy</a></li>
+        </ul>
 
-    <p>We may update this Privacy Policy from time to time. If we make material changes, we will notify you by:</p>
-    <ul>
-        <li>Posting the updated policy in the app</li>
-        <li>Updating the "Last Updated" date at the top of this policy</li>
-        <li>Sending you an email notification (for significant changes)</li>
-    </ul>
+        <h3>Firebase Crashlytics</h3>
+        <p>We use Firebase Crashlytics to detect and fix crashes and errors.</p>
+        <ul>
+            <li><strong>Information Collected:</strong> Crash reports, device state at time of crash, stack traces</li>
+            <li><strong>Purpose:</strong> Identify and fix bugs, improve app stability</li>
+            <li><strong>Privacy:</strong> Crash reports do not include your box inventory or personal content</li>
+            <li><strong>Opt-Out:</strong> Analytics opt-out also disables crash reporting</li>
+            <li><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Crashlytics Privacy</a></li>
+        </ul>
 
-    <p>Your continued use of Box Buddy after changes are posted constitutes your acceptance of the updated Privacy Policy.</p>
+        <h2>12. Changes to This Privacy Policy</h2>
 
-    <h2>12. Third-Party Links</h2>
+        <p>We may update this Privacy Policy from time to time. If we make material changes, we will notify you by:</p>
+        <ul>
+            <li>Posting the updated policy in the app</li>
+            <li>Updating the "Last Updated" date at the top of this policy</li>
+            <li>Sending you an email notification (for significant changes)</li>
+        </ul>
 
-    <p>Box Buddy may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to read their privacy policies.</p>
+        <p>Your continued use of Box Buddy after changes are posted constitutes your acceptance of the updated Privacy Policy.</p>
 
-    <h2>13. Contact Us</h2>
+        <h2>13. Third-Party Links</h2>
 
-    <div class="contact">
-        <p>If you have questions about this Privacy Policy or our privacy practices, please contact us:</p>
-        <p>
-            <strong>Email:</strong> support@ophelion.app<br>
-            <strong>Website:</strong> <a href="https://ophelion.app">ophelion.app</a><br>
-            <strong>Address:</strong> 292 Pacifica Dr, Brentwood CA 94513
+        <p>Box Buddy may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to read their privacy policies.</p>
+
+        <h2>14. Contact Us</h2>
+
+        <div class="contact">
+            <p>If you have questions about this Privacy Policy or our privacy practices, please contact us:</p>
+            <p>
+                <strong>Email:</strong> support@ophelion.app<br>
+                <strong>Website:</strong> <a href="https://ophelion.app">ophelion.app</a>
+            </p>
+        </div>
+
+        <p style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #666; font-size: 0.9em;">
+            © 2025 Ophelion Software. All rights reserved.
         </p>
     </div>
-
-    <p style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #666; font-size: 0.9em;">
-        © 2025 Ophelion Software. All rights reserved.
-    </p>
 </body>
 </html>
