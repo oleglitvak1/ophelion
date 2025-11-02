@@ -1,4 +1,4 @@
-[ 
+[
   {
     "relation": [
       "delegate_permission/common.handle_all_urls",
@@ -8,9 +8,9 @@
       "namespace": "android_app",
       "package_name": "com.boxease",
       "sha256_cert_fingerprints": [
-        "73:82:88:FC:4C:66:3C:F9:0D:81:C7:18:17:41:15:A8:A1:E7:32:4E:45:04:CD:A4:CD:D9:6C:58:10:25:D1:2E"
+        "73:82:88:FC:4C:66:3C:F9:0D:81:C7:18:17:41:15:A8:A1:E7:32:4E:45:04:CD:A4:CD:D9:6C:58:10:25:D1:2E",
+        "99:34:A1:6F:08:8A:83:D0:C5:22:72:03:22:37:37:50:00:EA:B8:CC:63:81:7F:94:6B:D4:11:9A:35:13:F3:51"
       ]
     }
   }
 ]
-
