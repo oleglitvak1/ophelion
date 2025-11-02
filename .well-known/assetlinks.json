@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.boxease",
+      "sha256_cert_fingerprints": [
+        "73:82:88:FC:4C:66:3C:F9:0D:81:C7:18:17:41:15:A8:A1:E7:32:4E:45:04:CD:A4:CD:D9:6C:58:10:25:D1:2E"
+      ]
+    }
+  }
+]
+
